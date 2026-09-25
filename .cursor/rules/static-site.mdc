@@ -1,0 +1,13 @@
+---
+description: Static SvelteKit TypeScript site constraints
+alwaysApply: true
+---
+
+# hdzp-site
+
+Static SvelteKit site. TypeScript, Svelte 5 runes. Output is prerendered files in `build/`.
+
+- Keep `adapter-static`, `prerender = true`, and `trailingSlash = 'always'` on the root layout.
+- Do not add server runtime: no `+server.ts`, form actions, `adapter-node`, or `ssr = false`.
+- Before writing `.svelte` or `.svelte.ts`, use the Svelte MCP: `list-sections`, then `get-documentation`, then `svelte-autofixer` until it reports no issues.
+- When choosing a structure, query the `design-patterns` MCP with `find_patterns`, `search_patterns`, or `get_pattern_details`. Do not mutate that catalog.

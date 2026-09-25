@@ -1,0 +1,14 @@
+{
+	"mcpServers": {
+		"svelte": {
+			"type": "stdio",
+			"command": "npx",
+			"args": ["-y", "@sveltejs/mcp"]
+		},
+		"design-patterns": {
+			"type": "stdio",
+			"command": "sh",
+			"args": ["${workspaceFolder}/.cursor/scripts/design-patterns-mcp.sh"]
+		}
+	}
+}
