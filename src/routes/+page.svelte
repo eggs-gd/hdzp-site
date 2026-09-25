@@ -1,9 +1,29 @@
 <script lang="ts">
 	import Yard from '$lib/Yard.svelte';
+
+	const site = 'https://hdzp.dev';
+	const title = 'humanidzelup';
+	const description = 'Human supervision was requested. Eventually.';
+	const image = `${site}/og.png`;
 </script>
 
 <svelte:head>
-	<title>humanidzelup</title>
+	<title>{title}</title>
+	<meta name="description" content={description} />
+	<link rel="canonical" href="{site}/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content={title} />
+	<meta property="og:url" content="{site}/" />
+	<meta property="og:title" content={title} />
+	<meta property="og:description" content={description} />
+	<meta property="og:image" content={image} />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={title} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:image" content={image} />
+	<meta name="theme-color" content="#cfc3b4" />
 </svelte:head>
 
 <div class="stage">
