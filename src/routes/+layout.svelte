@@ -14,7 +14,8 @@
 	:global(html),
 	:global(body) {
 		margin: 0;
-		min-height: 100%;
+		height: 100%;
+		overflow: hidden;
 		background: #cfc3b4;
 		color: #241f1b;
 	}
