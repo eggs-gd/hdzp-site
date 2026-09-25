@@ -127,7 +127,7 @@
 		frame = requestAnimationFrame(loop);
 		const flipTimer = setInterval(() => {
 			heroFlip = -heroFlip;
-		}, 1000);
+		}, 3000);
 		return () => {
 			cancelAnimationFrame(frame);
 			clearInterval(flipTimer);
