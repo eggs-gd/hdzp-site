@@ -41,6 +41,7 @@
 		<div class="bar">
 			<p>© 2026 HDZP.dev</p>
 			<a href="https://firestart.dev">firestart.dev</a>
+			<a href="https://eggs.gd">eggs.gd</a>
 			<a href="https://fleet.eggs.gd">fleet.eggs.gd</a>
 		</div>
 	</footer>
@@ -109,7 +110,8 @@
 
 	.bar {
 		display: flex;
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
+		row-gap: 0.1rem;
 		gap: 1.25rem;
 		align-items: baseline;
 		justify-content: center;
