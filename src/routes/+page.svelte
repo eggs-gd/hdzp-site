@@ -39,8 +39,8 @@
 	<footer>
 		<hr />
 		<div class="bar">
-			<span>© 2026 <a href="https://firestart.dev">firestart.dev</a></span>
-			<a href="https://eggs.gd">eggs.gd</a>
+			<span>© 2026 <a href="https://firestart.dev" data-cta="firestart" data-cta-placement="footer">firestart.dev</a></span>
+			<a href="https://eggs.gd" data-cta="eggs" data-cta-placement="footer">eggs.gd</a>
 		</div>
 	</footer>
 </div>
