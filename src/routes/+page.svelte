@@ -39,7 +39,7 @@
 	<footer>
 		<hr />
 		<div class="bar">
-			<a href="https://firestart.dev">@firestart.dev</a>
+			<span>© 2026 <a href="https://firestart.dev">firestart.dev</a></span>
 			<a href="https://eggs.gd">eggs.gd</a>
 		</div>
 	</footer>
