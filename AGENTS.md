@@ -29,3 +29,4 @@ After completing the code, ask the user if they want a playground link. Only cal
 - Do not add a server runtime: no `+server.ts`, form actions, `adapter-node`, or `ssr = false`.
 - Skills in `.cursor/skills` and the `svelte-file-editor` agent are the Svelte editing path. Run `svelte-autofixer` on every component you write until it returns no issues or suggestions.
 - For structure choices, use the `design-patterns` MCP (`find_patterns`, `search_patterns`, `get_pattern_details`). Read that catalog only.
+- Head metadata, sitemap, footer and cross-links follow the spec in [eggs-gd/eggs.gd-site `docs/seo.md`](https://github.com/eggs-gd/eggs.gd-site/blob/main/docs/seo.md). This page is a meme: no visible text and no analytics are added for SEO.
