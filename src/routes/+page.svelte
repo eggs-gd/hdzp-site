@@ -49,6 +49,8 @@
 	.stage {
 		position: relative;
 		height: 100vh;
+		/* dvh follows the visible area when a mobile browser toolbar is showing, so the footer is not covered. */
+		height: 100dvh;
 		overflow: hidden;
 	}
 
