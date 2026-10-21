@@ -39,9 +39,8 @@
 	<footer>
 		<hr />
 		<div class="bar">
-			<p>© 2026 HDZP.dev</p>
-			<a href="https://firestart.dev">firestart.dev</a>
-			<a href="https://fleet.eggs.gd">fleet.eggs.gd</a>
+			<span>© 2026 <a href="https://firestart.dev">firestart.dev</a></span>
+			<a href="https://eggs.gd">eggs.gd</a>
 		</div>
 	</footer>
 </div>
@@ -109,7 +108,8 @@
 
 	.bar {
 		display: flex;
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
+		row-gap: 0.1rem;
 		gap: 1.25rem;
 		align-items: baseline;
 		justify-content: center;
@@ -119,10 +119,6 @@
 		font-family: Palatino, 'Palatino Linotype', 'Iowan Old Style', Georgia, serif;
 		font-size: 0.9rem;
 		line-height: 1.5;
-	}
-
-	.bar p {
-		margin: 0;
 	}
 
 	a {
